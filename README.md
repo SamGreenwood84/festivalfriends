@@ -1,5 +1,7 @@
 # festivalfriends
 
+![alt text](assets/festivalfriendslogo.png)
+
 **NoSQL Challenge: Social Network API**
 
 # Description
