@@ -56,11 +56,7 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 # Built-With
 
--Xpress.js
-
--Mongoose
-
--MongoDB
+![alt text](assets/built-with.png)
 
 # Collaboration
 
