@@ -11,6 +11,7 @@ As a festival enthusiast I want a social media network just for my festival conn
 # Table of Contents
 
 - [Mock-up](#mock-up)
+- [Live Demo](#live-demo)
 - [Getting Started](#getting-started)
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
@@ -20,6 +21,8 @@ As a festival enthusiast I want a social media network just for my festival conn
 - [License](#license)
 
 # Mock-up
+
+# Live Demo
 
 # Getting Started
 
