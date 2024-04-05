@@ -10,7 +10,7 @@ As a festival enthusiast I want a social media network just for my festival conn
 
 # Table of Contents
 
-- [Live Demo](#live-demo)
+- [Mock-up](#mock-up)
 - [Getting Started](#getting-started)
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
@@ -19,14 +19,15 @@ As a festival enthusiast I want a social media network just for my festival conn
 - [Deployment](#deployment)
 - [License](#license)
 
-# Live Demo Video
+# Mock-up
 
 # Getting Started
 
 1. Clone gitHub repository
 2. npm i express
 3. npm i mongoose
-4. Use command node index.js
+4. npm install dotenv
+5. Use command node server.js to initialze database
 
 # User Story
 
@@ -71,8 +72,6 @@ My awesome classmates helped debug over slack
 # Deployment
 
 GitHub Repository Link [Click Here!](https://github.com/SamGreenwood84/festivalfriends.git)
-
-For Google Drive Link: [Click Here!]( https://)
 
 # License
 

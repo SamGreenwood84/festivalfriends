@@ -6,7 +6,7 @@ const {
   createUser,
   updateUser,
   deleteUser
-} = require('../controllers/user-controller');
+} = require('./controllers/user-controller');
 
 // Define API routes for user-related operations
 router
