@@ -6,7 +6,7 @@
 
 # Description
 
-As a festival enthusiast I want a social media network just for my festival connections, information and inspirations! 
+As a festival enthusiast I want a social media network just for my festival connections, information and inspirations that is seperate from my social media
 
 # Table of Contents
 
@@ -66,11 +66,11 @@ Tested  with Insomnia
 
 Bootcamp Spot Module 18
 
-My awesome classmates helped over slack
+My awesome classmates helped debug over slack
 
 # Deployment
 
-GitHub Repository Link [Click Here!](https://)
+GitHub Repository Link [Click Here!](https://github.com/SamGreenwood84/festivalfriends.git)
 
 For Google Drive Link: [Click Here!]( https://)
 
