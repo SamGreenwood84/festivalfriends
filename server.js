@@ -13,11 +13,16 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Connect to MongoDB database
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/festival-friends', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/festivalfriends', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
   useFindAndModify: false
+}).then(() => {
+  console.log('Connected to MongoDB database.');
+}).catch((error) => {
+  console.error('Error connecting to MongoDB:', error);
+  process.exit(1); // Exit the application if unable to connect to the database
 });
 
 // Routes
