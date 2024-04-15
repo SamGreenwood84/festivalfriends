@@ -62,8 +62,6 @@ const userController = {
         if (!user) {
           return res.status(404).json({ message: 'No user found with this id' });
         }
-        // BONUS: Remove user's associated thoughts
-        // You may implement this as per your project requirements
         res.json(user);
       })
       .catch((err) => {

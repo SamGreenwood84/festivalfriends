@@ -1,7 +1,7 @@
 // Import mongoose library
 const mongoose = require('mongoose');
 
-const dateFormat = require("../utils/dateFormat");
+const dateFormat = require("../utils/date");
 
 // Destructure Schema from mongoose
 const { Schema } = mongoose;
@@ -63,7 +63,7 @@ thoughtSchema.virtual('reactionCount').get(function() {
 });
 
 // Create the Thought model using the thoughtSchema
-const Thought = mongoose.model('Thought', thoughtSchema);
+const Thought = mongoose.model('thought', thoughtSchema);
 
 // Export the Thought model
 module.exports = Thought;
