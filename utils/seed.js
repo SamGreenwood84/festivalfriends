@@ -1,10 +1,9 @@
 const mongoose = require('mongoose');
-mongoose.set('strictQuery', false); 
 const { User, Thought } = require('../models');
 
 mongoose.connect('mongodb://localhost:27017/festivalfriends', {
   useNewUrlParser: true,
-  useUnifiedTopology: true,
+  useUnifiedTopology: true
 });
 
 const userData = [

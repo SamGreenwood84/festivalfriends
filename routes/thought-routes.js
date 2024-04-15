@@ -6,7 +6,7 @@ const {
   updateThought,
   deleteThought,
   addReaction // New function for adding a reaction
-} = require('../controllers/thought-controller');
+} = require('../controllers/thought-controllers');
 
 // Define API routes for thought-related operations
 router
