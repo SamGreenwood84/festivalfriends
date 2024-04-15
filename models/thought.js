@@ -1,7 +1,7 @@
 // Import mongoose library
 const mongoose = require('mongoose');
 
-const dateFormat = require("../utils/date");
+const date = require("../utils/date");
 
 // Destructure Schema from mongoose
 const { Schema } = mongoose;

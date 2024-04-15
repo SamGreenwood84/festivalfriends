@@ -16,7 +16,6 @@ app.use(express.urlencoded({ extended: true }));
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/festivalfriends', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
-  useCreateIndex: true,
   useFindAndModify: false
 }).then(() => {
   console.log('Connected to MongoDB database.');
