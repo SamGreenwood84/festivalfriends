@@ -7,7 +7,7 @@ const {
   deleteUser,
   addFriend,
   removeFriend
-} = require('../controllers/user-controllers');
+} = require('../../controllers/thought-controllers');
 
 // Define API routes for user-related operations
 router

@@ -24,8 +24,8 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/festivalfriends
 });
 
 // Routes
-app.use('/user', require('./routes/user-routes'));
-app.use('/thought', require('./routes/thought-routes'));
+app.use('/user', require('./routes/api/user-routes'));
+app.use('/thought', require('./routes/api/thought-routes'));
 
 // Error handling middleware
 app.use((err, req, res, next) => {
