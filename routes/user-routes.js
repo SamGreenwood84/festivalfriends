@@ -1,4 +1,3 @@
-// user-routes.js (routes/user-routes.js)
 const router = require('express').Router();
 const {
   getAllUsers,
@@ -6,7 +5,7 @@ const {
   createUser,
   updateUser,
   deleteUser
-} = require('./controllers/user-controller');
+} = require('../controllers/user-controllers'); // Adjust the path to match your file structure
 
 // Define API routes for user-related operations
 router

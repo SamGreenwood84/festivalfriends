@@ -6,7 +6,7 @@ const thoughtRoutes = require("/thought-routes");
 router.use("/users", userRoutes);
 router.use("/thoughts", thoughtRoutes);
 
-const apiRoutes = require("./api");
+const apiRoutes = require(".");
 router.use("/api", apiRoutes);
 
 router.use((req, res) => {
