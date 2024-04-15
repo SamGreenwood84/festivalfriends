@@ -1,4 +1,3 @@
-// thought-routes.js (routes/thought-routes.js)
 const router = require('express').Router();
 const {
   getAllThoughts,
@@ -6,7 +5,7 @@ const {
   createThought,
   updateThought,
   deleteThought
-} = require('./controllers/thought-controller');
+} = require('../controllers/thought-controller'); // Adjust the path to match your file structure
 
 // Define API routes for thought-related operations
 router
