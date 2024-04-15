@@ -1,5 +1,3 @@
-# festivalfriends
-
 ![alt text](assets/festivalfriendslogo.png)
 
 **NoSQL Challenge: Social Network API**
@@ -64,6 +62,10 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 ![alt text](assets/built-with.png)
 
+Tested  with Insomnia
+
+Bootcamp Spot Module 18
+
 # Collaboration
 
 Tested  with Insomnia
@@ -71,6 +73,14 @@ Tested  with Insomnia
 Bootcamp Spot Module 18
 
 My awesome classmates helped debug over slack
+
+```python
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.9"
+  }
+```
 
 # Deployment
 
