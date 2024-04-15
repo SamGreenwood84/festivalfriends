@@ -1,11 +1,11 @@
 {
   "name": "festivalfriends",
   "version": "1.0.0",
-  "description": "## Table of Contents",
+  "description": "Social Networking API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
+    "start": "node models/index.js",
     "seed": "node utils/seed.js"
   },
   "repository": {
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/SamGreenwood84/festivalfriends"
   },
   "keywords": [],
-  "author": "",
+  "author": "SamGreenwood84",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
